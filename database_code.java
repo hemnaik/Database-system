@@ -11,7 +11,7 @@ class update
 		try
 		{
 	        Class.forName("com.mysql.cj.jdbc.Driver");
-	        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/customer","root","hemnaik9000123@");
+	        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/customer","root","password");
 	   
 	        System.out.println("ENTER UPDATE NAME:");
 			updatename=sc.nextLine();
@@ -61,7 +61,7 @@ class select
 		try
 		{
 	        Class.forName("com.mysql.cj.jdbc.Driver");
-	        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/customer","root","hemnaik9000123@");
+	        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/customer","root","password");
 	   
 	        System.out.println("ENTER ID:");
 			id=sc.nextInt();
@@ -110,7 +110,7 @@ class delete
 		try
 		{
 	        Class.forName("com.mysql.cj.jdbc.Driver");
-	        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/customer","root","hemnaik9000123@");
+	        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/customer","root","password");
 	   
 	        System.out.println("ENTER ID FOR RECORD DELETION:");
 		id=sc.nextInt();
@@ -137,7 +137,7 @@ class insert
 		try
 		{
 	        Class.forName("com.mysql.cj.jdbc.Driver");
-	        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/customer","root","hemnaik9000123@");
+	        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/customer","root","password");
 	   
 	        System.out.println("ENTER NAME & ID:");
 	        name=sc.nextLine();
